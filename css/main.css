@@ -1,0 +1,98 @@
+html {
+  font-family: "Source Sans 3",
+    Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+}
+
+/* General */
+
+aside {
+  background-color: hsl(147deg 63% 31%);
+  color: #eee;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: .5rem solid #ccc;
+  padding-left: .5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif 4",
+    "Iowan Old Style",
+    Constantia,
+    Georgia,
+    serif;
+}
+
+.callout {
+  background-color: hsl(148deg 54% 66%);
+  color: #333;
+  font-size: 1.25rem;
+  padding: 0 1rem;
+  border: 2px solid #ccc;
+  border-radius: .6rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Figures */
+
+figure > p {
+  margin-bottom: 0;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 0;
+}
+
+/* Multi-column */
+
+.multi-column {
+  column-count: 3;
+  column-width: auto;
+  column-gap: 40px;
+  column-rule: 2px dotted hsl(150, 70%, 31%);
+  margin-bottom: 2rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.multi-column > li {
+  margin-bottom: .5em;
+}
+
+/* Footer */
+
+footer {
+  background-color: #eee;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(150, 70%, 31%);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social-media-icons > li {
+  margin-right: .5rem;
+}
+
+.social-media-icons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
